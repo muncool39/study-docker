@@ -38,3 +38,23 @@ docker ps
 
 결과 확인
 ![](./images/request_18080_hi.JPG)
+
+## Doker Compose 사용
+
+docker-compose.yml 파일 생성
+
+실행 및 확인
+```Shell
+docker compose up -d
+```
+
+![컴포즈실행](./images/docker_compose_up.JPG)
+
+
+네트워크가 파일 경로를 기준으로 자동으로 생성된 것을 확인
+
+![네트워크확인](./images/docker_network.JPG)
+
+Docker Desktop 확인
+
+![데스크탑](./images/docker_desktop.JPG)
